@@ -485,10 +485,397 @@ color: #000000;
   }
   .nomecliente
   {
+    margin: 5px;
     text-align: left;
-    font-size: 15px;
+    font-size: 22px;
   }
   .nomepet
   {
-    font-size: 40px;
+    
+    font-size: 30px;
   }
+.CPF
+{
+    margin: 5px;
+    font-size: 15px;
+}
+.fichabob
+{
+    background-image: url('img/Ficha\ Bob.png');
+    background-color: #222; /* cor de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* centraliza a imagem */
+}
+.tela-cadastro
+{
+    position: relative;
+    width: 1024px;
+    height: 768px;
+}
+.quadrado
+{
+    position: absolute;
+width: 180px;
+height: 140px;
+left: 297px;
+top: 70px;
+
+background: #00CC8F;
+border-radius: 10px;
+}
+.txtmaior
+{
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.quadrado2
+{
+    position: absolute;
+width: 270px;
+height: 175px;
+left: 91px;
+top: 303px;
+
+background: #00CC8F;
+border-radius: 10px;
+}
+.quadrado3
+{
+    position: absolute;
+    width: 360px;
+    height: 106px;
+    left: 95px;
+    top: 530px;
+    
+    background: #00CC8F;
+    border-radius: 10px; 
+}
+.quadrado4
+{
+    position: absolute;
+width: 614px;
+height: 270px;
+left: 562px;
+top: 85px;
+
+background: #00CC8F;
+border-radius: 50px;
+text-align: center;
+}
+.txtgenerico
+{
+    border: 5px;
+    margin: 20px;
+}
+.voltar
+{
+    position: absolute;
+width: 67px;
+height: 68px;
+left: 1219px;
+top: 10px;
+
+background: url(458594.png);
+}
+.fotospet
+{
+    height: 200px; /* altura da área de rolagem */
+    overflow-y: scroll; /* habilita a rolagem vertical */
+    position: absolute;
+width: 450px;
+height: 200px;
+left: 620px;
+top: 400px;
+border-radius: 5%;
+background: #00CC8F;
+}
+.remedios
+{
+
+    width: 180px;
+    height: 150px;
+    left: 297px;
+    top: 70px;
+    
+    background: #979797;
+    border-radius: 10px;
+}
+.foto
+{
+    margin: 10px;
+    width: 180px;
+    height: 160px;
+    left: 297px;
+    top: 70px;
+    
+    background: #979797;
+    border-radius: 10px;
+}
+.remedin
+{
+    position: absolute;
+    margin: 10px;
+    width: 180px;
+    height: 160px;
+    left: 770px;
+    top: 350px;
+}
+.txtgeneric
+{
+    margin: 10px;
+}
+.cadastro
+{
+    background-image: url('img/fundocliente.png');
+    background-color: #222; /* cor de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* centraliza a imagem */
+}
+.cadastro-cliente
+{
+    position: relative;
+    width: 1024px;
+    height: 768px;
+}
+.voltar2
+{
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 1100px;
+top: 50px;
+}
+.voltar3
+{
+    width: 100px;
+height: 100px;
+color: white;
+}
+.title4
+{
+    position: absolute;
+    left: 1115px;
+top: 0px;
+color: white
+}
+.Tutor
+{
+    position: absolute;
+width: 139px;
+height: 57px;
+left: 160px;
+top: 229px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+.nometutor
+{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 150px;
+top: 350px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+.sobretutor
+{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 150px;
+top: 420px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.cpftutor
+{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 150px;
+top: 490px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.numerotutor
+{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 150px;
+top: 560px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.endetutor
+{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 150px;
+top: 630px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.retangulo1
+{
+    position: absolute;
+width: 450px;
+height: 510px;
+left: 100px;
+top: 200px;
+
+background-color: #cfcfcf;
+border-radius: 50px;
+}
+.retangulo2
+{
+    position: absolute;
+    width: 450px;
+    height: 510px;
+    left: 750px;
+    top: 200px;
+    
+    background-color: #cfcfcf;
+    border-radius: 50px;
+}
+.paciente
+{
+    position: absolute;
+    width: 139px;
+    height: 57px;
+    left: 800px;
+    top: 229px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #000000;
+}
+.namepet
+{
+    font-size: 12px;   
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 790px;
+top: 350px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.idadepet
+{
+    font-size: 12px;   
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 790px;
+top: 420px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.racapet
+{
+    font-size: 12px;   
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 790px;
+top: 490px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.pesopet
+{
+    font-size: 12px;   
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 790px;
+top: 560px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.escolhapet
+{
+    width: 300px;
+height: 45px;
+    position: absolute;
+    left: 800px;
+    top: 640px;
+    font-weight: bold;
+}
+.escolhasexo
+{
+    width: 300px;
+    height: 45px;
+        position: absolute;
+        left: 830px;
+        top: 670px;
+        font-weight: bold;
+}
+.concluido
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+width: 217px;
+height: 55px;
+left: 540px;
+top: 662px;
+
+background: #000000;
+border-radius: 50px;
+}
