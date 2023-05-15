@@ -253,3 +253,160 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0p
 border-radius: 50px;
 font-weight: bold;
 }
+.registerfun
+{
+    position: absolute;
+width: 353.29px;
+height: 35.34px;
+left: 70px;
+top: 640px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #0500FC;
+
+mix-blend-mode: normal;
+}
+.funcionariopage
+{
+    position: relative;
+width: 1024px;
+height: 768px;
+
+}
+.fundofuncio
+{
+    background-image: url('img/funcionario.png');
+    background-color: #222; /* cor de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* centraliza a imagem */
+}
+
+.titulo-funcionario
+{
+    position: absolute;
+width: 536px;
+height: 132px;
+left: 100px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+.nomefuncio
+{
+    position: absolute;
+width: 300px;
+height: 30px;
+left: 45px;
+top: 250px;
+
+background: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+.sobrefuncio
+{
+    position: absolute;
+width: 300px;
+height: 30px;
+left: 45px;
+top: 330px;
+
+background: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+.datanasci
+{
+    position: absolute;
+width: 210px;
+height: 0px;
+left: 56px;
+top: 400px;
+
+border: 1px solid #000000;
+}
+.datafuncio
+{
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    left: 300px;
+    top: 410px;
+    
+    background: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.senhafuncio
+{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 45px;
+    top: 480px;
+    
+    background: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.senhasenhafuncio
+{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 45px;
+    top: 560px;
+    
+    background: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.fotofuncionario
+{
+    position: absolute;
+width: 331px;
+height: 331px;
+left: 779px;
+top: 158px;
+}
+.gerarlogin
+{  
+    text-align: center;
+    font-size: 39px;
+    position: absolute;
+width: 250px;
+height: 70px;
+left: 1000px;
+top: 650px;
+color: white;
+background: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+font-weight: bold;  
+}
+.pesquisa-cliente
+{
+    background-image: url('img/fundocliente.png');
+    background-color: #222; /* cor de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* centraliza a imagem */
+}
+.client-page
+{
+    position: relative;
+    width: 1024px;
+    height: 768px;
+}
